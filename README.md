@@ -58,7 +58,6 @@ Résultat attendu côté Home Assistant :
 
 Dans `configuration.yaml`, sous `homeassistant: packages:`, ajouter la ligne suivante :
 
-```yaml
 homeassistant:
   packages:
     deltadom_energy_tariff_ce: !include_dir_merge_named deltadom/deltadom_energy_tariff_ce

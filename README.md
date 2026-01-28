@@ -61,7 +61,7 @@ Dans `configuration.yaml`, sous `homeassistant: packages:`, ajouter la ligne sui
 ```yaml
 homeassistant:
   packages:
-    deltadom_energy_tariff_ce: !include_dir_merge_named deltadom/deltadom_energy_tariff_ce ’’’
+    deltadom_energy_tariff_ce: !include_dir_merge_named deltadom/deltadom_energy_tariff_ce
 
 
 Le chemin doit être deltadom/deltadom_energy_tariff_ce
